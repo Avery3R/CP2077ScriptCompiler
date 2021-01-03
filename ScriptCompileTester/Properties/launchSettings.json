@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "ScriptCompileTester": {
+      "commandName": "Project",
+      "commandLineArgs": "compile \"D:\\Games\\Cyberpunk 2077\\r6\\cache\\final.redscripts\" \"C:\\Users\\avery\\source\\repos\\CP2077ScriptCompiler\\ScriptCompileTester\\bin\\Debug\\net5.0\\compileTestScript.script\"",
+      "nativeDebugging": true
+    }
+  }
+}

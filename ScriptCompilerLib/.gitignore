@@ -1,0 +1,7 @@
+#ignore generated parser/lexer
+
+lexerimpl.*
+parserimpl.*
+location.hh
+position.hh
+stack.hh

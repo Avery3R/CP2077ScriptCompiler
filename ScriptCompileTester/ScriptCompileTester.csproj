@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath></OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Gibbed.RED4\projects\Gibbed.RED4.ScriptFormats\Gibbed.RED4.ScriptFormats.csproj" />
+    <ProjectReference Include="..\ScriptCompilerLib\ScriptCompilerLib.vcxproj" />
+    <ProjectReference Include="..\ScriptDecompilerLib\ScriptDecompilerLib.vcxproj" />
+    <ProjectReference Include="..\TestDisassemblerLib\TestDisassemblerLib.csproj" />
+  </ItemGroup>
+
+</Project>
